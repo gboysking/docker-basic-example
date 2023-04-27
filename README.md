@@ -6,4 +6,10 @@ This repository provides an example of how to share log files between two Python
 
 # task-slot
 
+## Dynamic Task Slot Number Configuration in Docker Swarm
 This repository provides example code for dynamically configuring task slot numbers in Docker Swarm. This can increase the scalability of your application and adjust imbalances between tasks (container instances).
+
+# load-balance
+## Load Balancing with Docker Compose
+
+This is an example project demonstrating how to configure and run a load balancing setup using Docker Compose and Nginx.
