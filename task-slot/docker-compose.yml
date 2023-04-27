@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+  app:
+    image: custom-task-slot-image 
+    deploy:
+      mode: replicated
+      replicas: 3
+    environment:
+      - TASK_SLOT={{.Task.Slot}}
+    volumes:
+      - logs:/app/logs
+
+volumes:
+  logs:
+
