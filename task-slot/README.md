@@ -2,6 +2,8 @@
 
 This repository provides example code for dynamically configuring task slot numbers in Docker Swarm. This can increase the scalability of your application and adjust imbalances between tasks (container instances).
 
+[https://tobelinuxer.tistory.com/88]
+
 ## Requirements
 
 To run this example code, you need the following requirements:
